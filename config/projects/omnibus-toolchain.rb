@@ -43,7 +43,7 @@ override :bundler, version: "1.17.2"
 if ubuntu_trusty?
   override :gtar, version: "1.28"
 else
-  override :gtar, version: "1.32"
+  override :gtar, version: "1.30"
 end
 
 # Solaris fails compile on libtool version 2.4.2 and 2.4.6
