@@ -70,4 +70,5 @@ build do
     gem_install_dir = shellout!("#{install_dir}/embedded/bin/gem environment gemdir", env: env).stdout.chomp
     dependency "ruby-cleanup"
   end
+end 
 
